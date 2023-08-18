@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html" class="logo"> <i class="fas fa-lightbulb"></i> furniture depot </a>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+</header>
+<!-- closer btn  -->
+
+<div id="closer" class="fas fa-times"></div>
+
+<!-- navbar  -->
+
+<nav class="navbar">
+    <a href="home.html">home</a>
+    <a href="shop.html">shop</a>
+    <a href="about.html">about</a>
+    <a href="team.html">team</a>
+    <a href="blog.html">blog</a>
+    <a href="contact.html">contact</a>
+</nav>
+
+<!-- shopping cart  -->
+
+<div class="shopping-cart">
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="cart-img-1.jpg" alt="">
+        <div class="content">
+            <h3>Glass chair </h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $140.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="cart-img-2.jpg" alt="">
+        <div class="content">
+            <h3>White chair </h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $180.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="cart-img-3.jpg" alt="">
+        <div class="content">
+            <h3>Wooden chair </h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $120.00 </span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="cart-img-4.jpg" alt="">
+        <div class="content">
+            <h3>Barrel chair </h3>
+            <span class="quantity"> 1 </span>
+            <span class="multiply"> x </span>
+            <span class="price"> $110.00 </span>
+        </div>
+    </div>
+
+    <h3 class="total"> total : <span>$550.00</span> </h3>
+
+    <a href="#" class="btn">checkout cart</a>
+
+</div>
+
+<!-- login form  -->
+
+<div class="login-form">
+
+    <form action="">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box" id="email">
+        <input type="password" placeholder="enter your password" class="box" id="password">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn" onclick="fun()">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create now</a></p>
+    </form>
+
+</div>
+
+<section class="heading">
+    <h3>our blogs</h3>
+    <p> <a href="home.html">home</a> / <span>blog</span> </p>
+</section>
+
+<section class="blog">
+
+    <h1 class="title"> <span>our blogs</span> <a href="#">view all >></a> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="blog-11.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Wooden sofa chair </h3>
+                <p>Chairs are typically used to provide support for the seated person's body and arms, although some chairs are designed for 'perching' rather than sitting. There are also armless chairs - with or without a back - that may be referred to as stools.</p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 11th may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by sibi </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="image">
+                <img src="blog-21.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Sofa </h3>
+                <p>Although a couch is used primarily for seating, it may be used for sleeping. In homes, couches are normally put in the family room, living room, den, or lounge. They are sometimes also found in non-residential settings such as hotels, lobbies of commercial offices, waiting rooms, and bars.</p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by sibi </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="blog-31.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Bath tub </h3>
+                <p>A new bathtub can offer a fresh new look or completely transform your bathroom if chosen carefully, so here is a quick rundown of the baths available:
+                    more variety like Free standing bathtubs,Clawfoot bathtubs,Standard & Shower Baths and Improve heart health</p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 10th june, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by sibi </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="blog-41.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>TV Stand </h3>
+                <p>In addition to room for components, you also need enough space for proper ventilation. These devices heat up during use, and sufficient airflow helps avoid overheating. Your TV stand is also a good place to store movies and games, accessories and even throw blankets and toys.</p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="blog-51.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Wooden chair </h3>
+                <p>trong and Durable- Wooden chairs are made from solid wood and needless to say, they are extremely strong. They can easily withstand the wear and tear of daily use and are sure to remain functional for a very long period of time. Their enhanced durability also eliminates the need to replace them any time soon.</p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st july, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by sibi</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="blog-61.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Sofa table </h3>
+                <p>The sofa offers a nice and soft place to lie down quietly after a long and hard working day. It is also where everyone can sit in comfort and watch TV, including family members and guests.</p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st july, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by sibi  </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="shop.html"> <i class="fas fa-arrow-right"></i> shop</a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="team.html"> <i class="fas fa-arrow-right"></i> team</a>
+            <a href="blog.html"> <i class="fas fa-arrow-right"></i> blog</a>
+            <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my order</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my wishlist</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> terms of user</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook</a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter</a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram</a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin</a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest</a>
+        </div>
+
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="credit">
+    created by miss Sibilaila | all rights reserved!
+</section>
+
+<script src="script.js"></script>
+<script>
+    function fun()
+    {
+        let a=document.getElementById('email').value;
+        let b=document.getElementById('password').value;
+        if(a==''||b=='')
+        {
+            alert("Enter all the fields");
+        } 
+        else{
+            alert("Login successfully");
+        }
+    }
+</script>
+    
+</body>
+</html>
